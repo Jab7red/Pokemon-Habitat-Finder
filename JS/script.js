@@ -1,11 +1,10 @@
 console.log('JS is Working')
 
 //Variables
-const url = 'https://pokeapi.co/api/v2/pokemon-habitat/'
-console.log(url)
+const URL = 'https://pokeapi.co/api/v2/pokemon-habitat/'
+console.log(URL)
 
 //Element References
-const $name = $('name');
 const $input = $('#input');
 const $form = $('form');
 const userInput = $input.val()
@@ -13,7 +12,7 @@ const userInput = $input.val()
 //Event Listeners
 $form.on('submit', handleGetData);
 
-//Function
+//Functions
 
 function handleGetData(evt) {
     evt.preventDefault();
@@ -22,8 +21,9 @@ function handleGetData(evt) {
     $input.val('')
 }
 
-$.ajax(url + userInput).then(function (data) {
+$.ajax(URL + userInput).then(function (data) {
     console.log('Habitat')
+    console.log(data)
     render(data);
 }), function (error) {
     console.log('Somethings wrong')
@@ -33,7 +33,7 @@ $.ajax(url + userInput).then(function (data) {
 function render(habitatData) {
     $('main').html(`
     <h3>Habitat: ${habitatData.name}</h3>
-    <p id="name">Pokemon: ${habitatData.url}</p>
+    <p>Pokemon: ${habitatData.pokemon_species}</p>
     `);
 }
 
