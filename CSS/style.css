@@ -1,0 +1,18 @@
+html {
+    background: url(https://cdna.artstation.com/p/assets/images/images/005/519/152/large/dezra-tayler-3-balls.jpg?1491629359&dl=1) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    background-color: lightsalmon;
+}
