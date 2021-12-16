@@ -11,4 +11,4 @@
 <br>
 <h2>Screenshot</h2>
 <br>
-[Imgur](https://i.imgur.com/tnAZ5Ur.png)
+<img src="https://i.imgur.com/tnAZ5Ur.png">
