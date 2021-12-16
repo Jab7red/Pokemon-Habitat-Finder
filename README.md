@@ -7,7 +7,8 @@
     <li>CSS3</li>
     <li>JavaScript</li>
     <li>jQuery</li>
-    <li>PokeAPI</li>
+    <li>PokeApi</li>
 <br>
 <h2>Screenshot</h2>
 <br>
+[![Screen-Shot-2021-12-16-at-3-29-22-PM.png](https://i.postimg.cc/nLk9CFXp/Screen-Shot-2021-12-16-at-3-29-22-PM.png)](https://postimg.cc/gwx27PyT)
