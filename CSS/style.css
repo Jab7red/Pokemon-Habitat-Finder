@@ -16,3 +16,7 @@ form {
 main{
     background-color: lightsalmon;
 }
+
+label {
+    font-weight: 700;
+}
