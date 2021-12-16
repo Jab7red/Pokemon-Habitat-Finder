@@ -12,3 +12,9 @@
 <h2>Screenshot</h2>
 <br>
 <img src="https://i.imgur.com/tnAZ5Ur.png">
+<br>
+<h2>Getting Started</h2>
+<a href="https://ecstatic-golick-3cb483.netlify.app">Click Here</a>
+<br>
+<h2>Future Additions</h2>
+    <li>The ability to add the photo to the corresponding pokemon</li>
