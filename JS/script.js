@@ -37,11 +37,11 @@ function handleGetData(evt) {
 function render(habitatData) {
     $('main').html(`
     <h3>Habitat: ${habitatData.name} ID #${habitatData.id}</h3>
-    <h4>Pokemon:</h4>`)
+    <h3>Pokemon:</h3>`)
     
     
     habitatData.pokemon_species.forEach(pokemon => {
-        let pokemonName = document.createElement('p')
+        let pokemonName = document.createElement('li')
         pokemonName.innerHTML =`${pokemon.name}`
         $('main').append(pokemonName) 
     })

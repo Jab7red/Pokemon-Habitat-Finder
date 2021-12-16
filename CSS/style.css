@@ -1,9 +1,10 @@
 html {
-    background: url(https://cdna.artstation.com/p/assets/images/images/005/519/152/large/dezra-tayler-3-balls.jpg?1491629359&dl=1) no-repeat center center fixed;
+    background: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700116039-1024x576.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 h1 {
+    color: white;
     text-align: center;
     text-decoration: underline;
 }
@@ -14,9 +15,14 @@ form {
 }
 
 main{
-    background-color: lightsalmon;
+    color: white;
 }
 
 label {
+    color: white;
     font-weight: 700;
+}
+
+h3 {
+    text-decoration: underline;
 }
