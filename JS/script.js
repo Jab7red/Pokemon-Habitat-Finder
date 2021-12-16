@@ -19,10 +19,12 @@ function handleGetData(evt) {
     $input.val('')
 
     $.ajax(link + userInput).then(function (data) {
-        data.pokemon_species.forEach(pokemon => {
-            const pokemonName = pokemon.name
-            console.log(pokemonName)
-        });
+        console.log(data)
+        // data.pokemon_species.forEach(pokemon => {
+        //     const pokemonName = pokemon.name
+        //     console.log(pokemonName)
+        //     render(pokemon)
+        // });
         render(data);
     }), function (error) {
         console.log('Somethings wrong')
@@ -35,8 +37,14 @@ function handleGetData(evt) {
 function render(habitatData) {
     $('main').html(`
     <h3>Habitat: ${habitatData.name} ID #${habitatData.id}</h3>
-    <p>Pokemon: ${habitatData.pokemonName}</p>
-    `);
+    <h4>Pokemon:</h4>`)
+    
+    
+    habitatData.pokemon_species.forEach(pokemon => {
+        let pokemonName = document.createElement('p')
+        pokemonName.innerHTML =`${pokemon.name}`
+        $('main').append(pokemonName) 
+    })
 };
 
 //write a forEach method
